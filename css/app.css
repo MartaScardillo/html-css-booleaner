@@ -1,9 +1,13 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 header {
     background-image: url(../img/pattern.png);
     background-size: contain;
     background-repeat: space;
     height: 80px;
-    
     position: relative;
 }
 
@@ -15,4 +19,17 @@ header {
 
 h1 {
     font-size: 35px;
+    margin-top: 5px;
+}
+
+.details {
+    color: gray;
+}
+
+#the_booleaner {
+    color: rgb(2, 201, 201);
+}
+
+#date {
+    font-size: 15px;
 }
