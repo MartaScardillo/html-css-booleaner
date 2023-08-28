@@ -1,0 +1,18 @@
+header {
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-repeat: space;
+    height: 80px;
+    
+    position: relative;
+}
+
+.logo {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
+h1 {
+    font-size: 35px;
+}
