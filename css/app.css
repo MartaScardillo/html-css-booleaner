@@ -66,3 +66,22 @@ thead {
 .blue_row {
     background-color: aqua;
 }
+
+#monitor {
+    height: 208px;
+    width: 250px;
+    background-image: url(../img/monitor.jpg);
+}
+
+#graph {
+    height: 208px;
+    width: 250px;
+    background-image: url(../img/graph.jpg);
+}
+
+.text_over_image {
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+}
