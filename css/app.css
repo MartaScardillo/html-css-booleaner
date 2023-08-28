@@ -45,3 +45,7 @@ figcaption {
 .highlight {
     background-color: yellow;
 }
+
+ul {
+    padding-left: 15px;
+}
