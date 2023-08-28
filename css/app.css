@@ -49,3 +49,20 @@ figcaption {
 ul {
     padding-left: 15px;
 }
+
+th {
+    text-align: left;
+}
+
+td {
+    width: 500px;
+}
+
+thead {
+    background-color: rgb(8, 134, 134);
+    color: white;
+}
+
+.blue_row {
+    background-color: aqua;
+}
