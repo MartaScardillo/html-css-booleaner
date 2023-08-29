@@ -1,112 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Booleaner</title>
-    <link rel="stylesheet" href="./css/app.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Booleaner</title>
+        <link rel="stylesheet" href="./css/app.css">
+    </head>
+    <body>
 
-    <header>
-        <!-- background img nel css -->
-        <!-- the booleaner svg -->
-        <img class="logo" src="./img/logo.svg" alt="Logo The Booleaner">
-    </header>
+        <header class="page_header">
+            <img class="logo" src="./img/logo.svg" alt="Logo The Booleaner">
+        </header>
 
-    <main>
-        <section>
-            <!-- Title -->
-            <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-            <p class="details">
-                Scritto da <span id="the_booleaner">The Booleaner</span>
-            </p>
-            <p class="details" id="date">il 10/10/2020</p>
-        
+        <main>
+            <article>
+                <!-- article header -->
+                <header class="article_header">
+                    <h1 class="article_title">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>                
+                    <address class="article_author">Scritto da <span>The Booleaner</span></address>
+                    <time class="article_date" datetime="2020-10-10">il 10/10/2020</time>
+                </header>
 
-            <!-- Images with figcaption -->
-            <div>
-                <figure>            
-                    <img src="./img/tim-1.jpg" alt="">            
-                    <img src="./img/tim-2.jpg" alt="">
-                    <figcaption>
-                        1st Photo:John S. and James L. Knight Foundation, by Scott Henrichsen <br>
-                        2nd Photo: Wikipedia, by Paul Clarke
-                    </figcaption>
-                </figure>
-            </div>
+                <!-- article main content -->
+                <div class="article_featured-images">
+                    <figure>            
+                        <img src="./img/tim-1.jpg" alt="">            
+                        <img src="./img/tim-2.jpg" alt="">
+                        <figcaption>
+                            1st Photo:John S. and James L. Knight Foundation, by Scott Henrichsen <br>
+                        </figcaption>
+                        <figcaption>
+                            2nd Photo: Wikipedia, by Paul Clarke
+                        </figcaption>
+                    </figure>
+                </div>
 
-            <!-- Text 1 -->
-            <div>            
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium ea assumenda facere vel omnis nobis quaerat, <span class="highlight">ratione laborum ipsum officiis ducimus pariatur</span>, ex cupiditate asperiores? Tempore cupiditate provident amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vero et quo at unde dolorem, aut perspiciatis accusantium adipisci in, veritatis delectus optio magnam obcaecati labore veniam. Officiis, obcaecati. Recusandae.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium ea assumenda facere vel omnis nobis quaerat, <mark>ratione laborum ipsum officiis ducimus pariatur</mark>, ex cupiditate asperiores? Tempore cupiditate provident amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vero et quo at unde dolorem, aut perspiciatis accusantium adipisci in, veritatis delectus optio magnam obcaecati labore veniam. Officiis, obcaecati. Recusandae.
                 </p>
-            </div>
 
-            <!-- unnumbered list -->
-            <div>
                 <ul>
                     <li>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla in magnam sed temporibus veritatis. Expedita aperiam pariatur, animi adipisci est quod rem, itaque inventore iste voluptatibus eaque? Rem, id adipisci!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla in magnam sed temporibus veritatis.
                     </li>
                     <li>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla in magnam sed temporibus veritatis. Expedita aperiam pariatur, animi adipisci est quod rem, itaque inventore iste voluptatibus eaque? Rem, id adipisci!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla in magnam sed temporibus veritatis.
                     </li>
                     <li>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla in magnam sed temporibus veritatis. Expedita aperiam pariatur, animi adipisci est quod rem, itaque inventore iste voluptatibus eaque? Rem, id adipisci!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla in magnam sed temporibus veritatis.
                     </li>
                 </ul>
-            </div>
-
-            <div>
-                <!-- table -->
-                <table>
+                <table class="table">
                     <thead>
-                        <tr>
+                        <tr class="bg-dark-blue">
                             <th>Lorem ipsum dolor</th>
                             <th>Lorem ipsum dolor</th>
-                            <th>Lorem ipsum dolor</th>
+                            <th class="w-50">Lorem ipsum dolor</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="blue_row">
+                        <tr class="bg-blue">
                             <td>Lorem ipsum dolor</td>
                             <td>Lorem ipsum dolor</td>
                             <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nisi aliquid, quis voluptate, fugiat dicta sint officia quasi debitis pariatur perspiciatis? Explicabo dignissimos quis ad dolorem assumenda perspiciatis inventore corrupti.</td>
                         </tr>
-
+        
                         <tr>
                             <td>Lorem ipsum dolor</td>
                             <td>Lorem ipsum dolor</td>
                             <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nisi aliquid, quis voluptate, fugiat dicta sint officia quasi debitis pariatur perspiciatis? Explicabo dignissimos quis ad dolorem assumenda perspiciatis inventore corrupti.</td>
                         </tr>
-
-                        <tr class="blue_row">
+        
+                        <tr class="bg-blue">
                             <td>Lorem ipsum dolor</td>
                             <td>Lorem ipsum dolor</td>
                             <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nisi aliquid, quis voluptate, fugiat dicta sint officia quasi debitis pariatur perspiciatis? Explicabo dignissimos quis ad dolorem assumenda perspiciatis inventore corrupti.</td>
                         </tr>
                     </tbody>    
                 </table>
-            </div>
-
-            <!-- text 2-->
-            <div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium ea assumenda facere vel omnis nobis quaerat, <span class="highlight">ratione laborum ipsum officiis ducimus pariatur</span>, ex cupiditate asperiores? Tempore cupiditate provident amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vero et quo at unde dolorem, aut perspiciatis accusantium adipisci in, veritatis delectus optio magnam obcaecati labore veniam. Officiis, obcaecati. Recusandae.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium ea assumenda facere vel omnis nobis quaerat, <mark>ratione laborum ipsum officiis ducimus pariatur</mark>, ex cupiditate asperiores? Tempore cupiditate provident amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vero et quo at unde dolorem, aut perspiciatis accusantium adipisci in, veritatis delectus optio magnam obcaecati labore veniam. Officiis, obcaecati. Recusandae.
                 </p>
-            </div>
-        </section>
-    </main>
+            </article>
+        </main>
 
-    <footer>
-        <p class="details">Potrebbero interessarti</p>
-        <div class="footer_images" id="monitor">
-            <span class="text_over_image">Lorem ipsum dolor</span>
-        </div>
-        <div class="footer_images" id="graph">
-            <span class="text_over_image">Lorem ipsum dolor</span>
-        </div>
-    </footer>
-</body>
+        <!-- related articles -->
+        <aside>
+            <h4>Potrebbero interessarti</h4>
+            <ul class="related-articles">
+                <li>
+                    <article class="article-card bg-monitor">
+                        <h3>Lorem ipsum dolor</h3>
+                    </article>    
+                </li>
+                <li>
+                    <article class="article-card bg-graph">
+                        <h3>Lorem ipsum dolor</h3>
+                    </article>
+                </li>
+            </ul>
+        </aside>
+    </body>
 </html>
